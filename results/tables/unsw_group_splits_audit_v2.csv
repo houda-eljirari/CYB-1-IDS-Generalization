@@ -1,0 +1,6 @@
+﻿dataset,fold,train_size,test_size,train_attack_pct,test_attack_pct,overlapping_groups
+UNSW-NB15,1,80004,19996,12.58,12.57,0
+UNSW-NB15,2,79997,20003,12.58,12.58,0
+UNSW-NB15,3,80003,19997,12.58,12.57,0
+UNSW-NB15,4,79991,20009,12.57,12.59,0
+UNSW-NB15,5,80005,19995,12.58,12.57,0

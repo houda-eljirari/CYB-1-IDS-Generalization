@@ -1,0 +1,6 @@
+﻿dataset,fold,train_size,test_size,train_attack_pct,test_attack_pct,overlapping_groups
+CIC-IDS2017,1,79999,20001,19.79,19.79,0
+CIC-IDS2017,2,80001,19999,19.79,19.79,0
+CIC-IDS2017,3,80001,19999,19.79,19.79,0
+CIC-IDS2017,4,80001,19999,19.79,19.79,0
+CIC-IDS2017,5,79998,20002,19.79,19.79,0
