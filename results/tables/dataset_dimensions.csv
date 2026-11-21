@@ -1,0 +1,13 @@
+Dataset,Fichier,Nombre de lignes,Nombre de colonnes,Doublons intra-blocs,Colonnes potentiellement dupliquées
+UNSW-NB15,UNSW-NB15_1.csv,700001,49,59209,[]
+UNSW-NB15,UNSW-NB15_2.csv,700001,49,63244,[]
+UNSW-NB15,UNSW-NB15_3.csv,700001,49,224836,[]
+UNSW-NB15,UNSW-NB15_4.csv,440044,49,133311,[]
+CIC-IDS2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,79,1870,['Fwd Header Length']
+CIC-IDS2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,79,47775,['Fwd Header Length']
+CIC-IDS2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,79,5404,['Fwd Header Length']
+CIC-IDS2017,Monday-WorkingHours.pcap_ISCX.csv,529918,79,17480,['Fwd Header Length']
+CIC-IDS2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,79,28104,['Fwd Header Length']
+CIC-IDS2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,79,4829,['Fwd Header Length']
+CIC-IDS2017,Tuesday-WorkingHours.pcap_ISCX.csv,445909,79,16647,['Fwd Header Length']
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,692703,79,71964,['Fwd Header Length']

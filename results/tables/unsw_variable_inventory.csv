@@ -1,0 +1,50 @@
+﻿Variable,Type_observe,Exemple_valeur,Description
+srcip,str,59.166.0.0,Source IP address
+sport,string,1390,Source port number
+dstip,str,149.171.126.6,Destination IP address
+dsport,string,53,Destination port number
+proto,str,udp,Transaction protocol
+state,str,CON,"Indicates to the state and its dependent protocol, e.g. ACC, CLO, CON, ECO, ECR, FIN, INT, MAS, PAR, REQ, RST, TST, TXD, URH, URN, and (-) (if not used state)"
+dur,float64,0.001055,Record total duration
+sbytes,int64,132,Source to destination transaction bytes 
+dbytes,int64,164,Destination to source transaction bytes
+sttl,int64,31,Source to destination time to live value 
+dttl,int64,29,Destination to source time to live value
+sloss,int64,0,Source packets retransmitted or dropped 
+dloss,int64,0,Destination packets retransmitted or dropped
+service,str,dns,"http, ftp, smtp, ssh, dns, ftp-data ,irc  and (-) if not much used service"
+Sload,float64,500473.9375,Source bits per second
+Dload,float64,621800.9375,Destination bits per second
+Spkts,int64,2,Source to destination packet count 
+Dpkts,int64,2,Destination to source packet count
+swin,int64,0,Source TCP window advertisement value
+dwin,int64,0,Destination TCP window advertisement value
+stcpb,int64,0,Source TCP base sequence number
+dtcpb,int64,0,Destination TCP base sequence number
+smeansz,int64,66,Mean of the ?ow packet size transmitted by the src 
+dmeansz,int64,82,Mean of the ?ow packet size transmitted by the dst 
+trans_depth,int64,0,Represents the pipelined depth into the connection of http request/response transaction
+res_bdy_len,int64,0,Actual uncompressed content size of the data transferred from the servers http service.
+Sjit,float64,0.0,Source jitter (mSec)
+Djit,float64,0.0,Destination jitter (mSec)
+Stime,int64,1421927414,record start time
+Ltime,int64,1421927414,record last time
+Sintpkt,float64,0.017,Source interpacket arrival time (mSec)
+Dintpkt,float64,0.013,Destination interpacket arrival time (mSec)
+tcprtt,float64,0.0,"TCP connection setup round-trip time, the sum of synack and ackdat."
+synack,float64,0.0,"TCP connection setup time, the time between the SYN and the SYN_ACK packets."
+ackdat,float64,0.0,"TCP connection setup time, the time between the SYN_ACK and the ACK packets."
+is_sm_ips_ports,int64,0,"If source (1) and destination (3)IP addresses equal and port numbers (2)(4)  equal then, this variable takes value 1 else 0"
+ct_state_ttl,int64,0,No. for each state (6) according to specific range of values for source/destination time to live (10) (11).
+ct_flw_http_mthd,int64,0,No. of flows that has methods such as Get and Post in http service.
+is_ftp_login,int64,0,If the ftp session is accessed by user and password then 1 else 0. 
+ct_ftp_cmd,int64,0,No of flows that has a command in ftp session.
+ct_srv_src,int64,3,No. of connections that contain the same service (14) and source address (1) in 100 connections according to the last time (26).
+ct_srv_dst,int64,7,No. of connections that contain the same service (14) and destination address (3) in 100 connections according to the last time (26).
+ct_dst_ltm,int64,1,No. of connections of the same destination address (3) in 100 connections according to the last time (26).
+ct_src_ltm,int64,3,No. of connections of the same source address (1) in 100 connections according to the last time (26).
+ct_src_dport_ltm,int64,1,No of connections of the same source address (1) and the destination port (4) in 100 connections according to the last time (26).
+ct_dst_sport_ltm,int64,1,No of connections of the same destination address (3) and the source port (2) in 100 connections according to the last time (26).
+ct_dst_src_ltm,int64,1,No of connections of the same source (1) and the destination (3) address in in 100 connections according to the last time (26).
+attack_cat,string,Exploits,"The name of each attack category. In this data set , nine categories e.g. Fuzzers, Analysis, Backdoors, DoS Exploits, Generic, Reconnaissance, Shellcode and Worms"
+Label,int64,0,0 for normal and 1 for attack records

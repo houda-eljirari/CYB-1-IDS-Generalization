@@ -1,0 +1,31 @@
+Dataset,Fichier,Label,Nombre
+UNSW-NB15,UNSW-NB15_1.csv,0,677786
+UNSW-NB15,UNSW-NB15_1.csv,1,22215
+UNSW-NB15,UNSW-NB15_2.csv,0,647252
+UNSW-NB15,UNSW-NB15_2.csv,1,52749
+UNSW-NB15,UNSW-NB15_3.csv,0,542576
+UNSW-NB15,UNSW-NB15_3.csv,1,157425
+UNSW-NB15,UNSW-NB15_4.csv,0,351150
+UNSW-NB15,UNSW-NB15_4.csv,1,88894
+CIC-IDS2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,DDoS,128027
+CIC-IDS2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,BENIGN,97718
+CIC-IDS2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,BENIGN,127537
+CIC-IDS2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,PortScan,158930
+CIC-IDS2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,BENIGN,189067
+CIC-IDS2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,Bot,1966
+CIC-IDS2017,Monday-WorkingHours.pcap_ISCX.csv,BENIGN,529918
+CIC-IDS2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,BENIGN,288566
+CIC-IDS2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Infiltration,36
+CIC-IDS2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,BENIGN,168186
+CIC-IDS2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � Brute Force,1507
+CIC-IDS2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � XSS,652
+CIC-IDS2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � Sql Injection,21
+CIC-IDS2017,Tuesday-WorkingHours.pcap_ISCX.csv,BENIGN,432074
+CIC-IDS2017,Tuesday-WorkingHours.pcap_ISCX.csv,FTP-Patator,7938
+CIC-IDS2017,Tuesday-WorkingHours.pcap_ISCX.csv,SSH-Patator,5897
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,BENIGN,440031
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Hulk,231073
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,DoS slowloris,5796
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Slowhttptest,5499
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,DoS GoldenEye,10293
+CIC-IDS2017,Wednesday-workingHours.pcap_ISCX.csv,Heartbleed,11

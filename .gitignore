@@ -71,3 +71,6 @@ temp/
 # Fichiers temporaires Windows
 # ==============================
 desktop.ini
+
+# Jupyter checkpoint files
+*-checkpoint.ipynb

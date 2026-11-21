@@ -1,0 +1,80 @@
+﻿Variable,Nombre_fichiers,Types_observes,Exemples
+Destination Port,8,int64,54865 | 55054 | 55055
+Flow Duration,8,int64,3 | 109 | 52
+Total Fwd Packets,8,int64,2 | 1 | 3
+Total Backward Packets,8,int64,0 | 1 | 2
+Total Length of Fwd Packets,8,int64,12 | 6 | 37
+Total Length of Bwd Packets,8,int64,0 | 6 | 176
+Fwd Packet Length Max,8,int64,6 | 31 | 0
+Fwd Packet Length Min,8,int64,6 | 0 | 31
+Fwd Packet Length Mean,8,float64,6.0 | 18.5 | 14.33333333
+Fwd Packet Length Std,8,float64,0.0 | 17.67766953 | 14.43375673
+Bwd Packet Length Max,8,int64,0 | 6 | 88
+Bwd Packet Length Min,8,int64,0 | 6 | 88
+Bwd Packet Length Mean,8,float64,0.0 | 6.0 | 88.0
+Bwd Packet Length Std,8,float64,0.0 | 16.1606518 | 879.8869246
+Flow Bytes/s,8,float64,4000000.0 | 110091.7431 | 230769.2308
+Flow Packets/s,8,float64,666666.6667 | 18348.62385 | 38461.53846
+Flow IAT Mean,8,float64,3.0 | 109.0 | 52.0
+Flow IAT Std,8,float64,0.0 | 0.707106781 | 2.121320344
+Flow IAT Max,8,int64,3 | 109 | 52
+Flow IAT Min,8,int64,3 | 109 | 52
+Fwd IAT Total,8,int64,3 | 0 | 1022
+Fwd IAT Mean,8,float64,3.0 | 0.0 | 1022.0
+Fwd IAT Std,8,float64,0.0 | 0.707106781 | 2.121320344
+Fwd IAT Max,8,int64,3 | 0 | 1022
+Fwd IAT Min,8,int64,3 | 0 | 1022
+Bwd IAT Total,8,int64,0 | 3 | 4
+Bwd IAT Mean,8,float64,0.0 | 3.0 | 4.0
+Bwd IAT Std,8,float64,0.0 | 16545.2078 | 2974.753318
+Bwd IAT Max,8,int64,0 | 3 | 4
+Bwd IAT Min,8,int64,0 | 3 | 4
+Fwd PSH Flags,8,int64,0 | 1
+Bwd PSH Flags,8,int64,0
+Fwd URG Flags,8,int64,0
+Bwd URG Flags,8,int64,0
+Fwd Header Length,8,int64,40 | 20 | 60
+Bwd Header Length,8,int64,0 | 20 | 32
+Fwd Packets/s,8,float64,666666.6667 | 9174.311927 | 19230.76923
+Bwd Packets/s,8,float64,0.0 | 9174.311927 | 19230.76923
+Min Packet Length,8,int64,6 | 0 | 31
+Max Packet Length,8,int64,6 | 31 | 0
+Packet Length Mean,8,float64,6.0 | 22.66666667 | 12.25
+Packet Length Std,8,float64,0.0 | 14.43375673 | 12.5
+Packet Length Variance,8,float64,0.0 | 208.3333333 | 156.25
+FIN Flag Count,8,int64,0 | 1
+SYN Flag Count,8,int64,0 | 1
+RST Flag Count,8,int64,0 | 1
+PSH Flag Count,8,int64,0 | 1
+ACK Flag Count,8,int64,1 | 0
+URG Flag Count,8,int64,0 | 1
+CWE Flag Count,8,int64,0
+ECE Flag Count,8,int64,0 | 1
+Down/Up Ratio,8,int64,0 | 1 | 2
+Average Packet Size,8,float64,9.0 | 34.0 | 16.33333333
+Avg Fwd Segment Size,8,float64,6.0 | 18.5 | 14.33333333
+Avg Bwd Segment Size,8,float64,0.0 | 6.0 | 88.0
+Fwd Header Length.1,8,int64,40 | 20 | 60
+Fwd Avg Bytes/Bulk,8,int64,0
+Fwd Avg Packets/Bulk,8,int64,0
+Fwd Avg Bulk Rate,8,int64,0
+Bwd Avg Bytes/Bulk,8,int64,0
+Bwd Avg Packets/Bulk,8,int64,0
+Bwd Avg Bulk Rate,8,int64,0
+Subflow Fwd Packets,8,int64,2 | 1 | 3
+Subflow Fwd Bytes,8,int64,12 | 6 | 37
+Subflow Bwd Packets,8,int64,0 | 1 | 2
+Subflow Bwd Bytes,8,int64,0 | 6 | 176
+Init_Win_bytes_forward,8,int64,33 | 29 | 31
+Init_Win_bytes_backward,8,int64,-1 | 256 | 329
+act_data_pkt_fwd,8,int64,1 | 0 | 2
+min_seg_size_forward,8,int64,20 | 32 | 28
+Active Mean,8,float64,0.0 | 46735.0 | 3591908.0
+Active Std,8,float64,0.0 | 1296391.188 | 166172.922
+Active Max,8,int64,0 | 46735 | 3591908
+Active Min,8,int64,0 | 46735 | 3591908
+Idle Mean,8,float64,0.0 | 30900000.0 | 7114425.0
+Idle Std,8,float64,0.0 | 12900000.0 | 140678.187
+Idle Max,8,int64,0 | 30900000 | 7114425
+Idle Min,8,int64,0 | 30900000 | 7114425
+Label,8,str,BENIGN | PortScan
