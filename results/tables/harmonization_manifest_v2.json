@@ -1,0 +1,32 @@
+{
+    "version": "v2",
+    "sample_size": 100000,
+    "random_state": 42,
+    "features": [
+        "flow_duration_s",
+        "fwd_packets",
+        "bwd_packets",
+        "fwd_bytes",
+        "bwd_bytes"
+    ],
+    "target": "target",
+    "grouping_method": "Exact duplicate feature values across the five shared features using pandas factorization of a MultiIndex",
+    "split_strategy": "StratifiedGroupKFold",
+    "n_splits": 5,
+    "datasets": {
+        "CIC-IDS2017": {
+            "sample_file": "data\\interim\\cic_harmonized_sample_v2.csv",
+            "splits_file": "results\\tables\\cic_group_splits_v2.npz",
+            "rows": 100000,
+            "sha256": "d4575aed273317a973e9fefda88d1b86a2d68e4fb7c1c28bd117e086f85d22e6",
+            "old_splits_match": true
+        },
+        "UNSW-NB15": {
+            "sample_file": "data\\interim\\unsw_harmonized_sample_v2.csv",
+            "splits_file": "results\\tables\\unsw_group_splits_v2.npz",
+            "rows": 100000,
+            "sha256": "faa8fc982d5ed7cda83f58793b84d086dc89ed08c71fd98866dc8435173aa72f",
+            "old_splits_match": true
+        }
+    }
+}
