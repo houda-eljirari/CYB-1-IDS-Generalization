@@ -1,0 +1,9 @@
+,,,intra_lift_lignes,intra_lift_lignes,intra_lift_motifs,intra_lift_motifs,cross_lift_lignes,cross_lift_lignes,cross_lift_motifs,cross_lift_motifs
+,,,mean,std,mean,std,mean,std,mean,std
+source,target,model,,,,,,,,
+CIC-IDS2017,UNSW-NB15,Logistic Regression,2.606,0.203,3.24,0.34,5.19,0.169,2.017,0.144
+CIC-IDS2017,UNSW-NB15,MLP,4.365,0.153,5.858,0.062,1.064,0.15,1.543,0.404
+CIC-IDS2017,UNSW-NB15,Random Forest,4.965,0.049,6.064,0.01,1.07,0.156,1.651,0.239
+UNSW-NB15,CIC-IDS2017,Logistic Regression,3.24,0.726,4.835,1.537,2.099,0.145,2.971,0.264
+UNSW-NB15,CIC-IDS2017,MLP,7.505,0.24,28.12,25.157,1.009,0.129,0.965,0.194
+UNSW-NB15,CIC-IDS2017,Random Forest,7.804,0.081,36.919,39.396,0.946,0.091,0.953,0.107

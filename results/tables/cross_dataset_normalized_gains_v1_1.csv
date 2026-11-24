@@ -1,0 +1,9 @@
+,,,intra_gain_lignes,intra_gain_lignes,intra_gain_motifs,intra_gain_motifs,cross_gain_lignes,cross_gain_lignes,cross_gain_motifs,cross_gain_motifs
+,,,mean,std,mean,std,mean,std,mean,std
+source,target,model,,,,,,,,
+CIC-IDS2017,UNSW-NB15,Logistic Regression,0.3962,0.0501,0.4384,0.0659,0.6028,0.0244,0.0447,0.0063
+CIC-IDS2017,UNSW-NB15,MLP,0.8302,0.0376,0.9508,0.0108,0.0092,0.0216,0.0239,0.0178
+CIC-IDS2017,UNSW-NB15,Random Forest,0.9782,0.0121,0.9911,0.0021,0.0101,0.0225,0.0287,0.0105
+UNSW-NB15,CIC-IDS2017,Logistic Regression,0.3222,0.1042,0.1392,0.0612,0.271,0.0359,0.3859,0.0516
+UNSW-NB15,CIC-IDS2017,MLP,0.9359,0.0341,0.7039,0.2273,0.0021,0.0319,-0.0068,0.038
+UNSW-NB15,CIC-IDS2017,Random Forest,0.9788,0.0108,0.8164,0.2193,-0.0134,0.0225,-0.0091,0.021
